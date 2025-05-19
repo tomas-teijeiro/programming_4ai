@@ -49,31 +49,24 @@ Material for the second part of the Programming for AI course on the "Applied Ar
 ## Session 6: Customizing Keras
  - Keras tuning with JAX. Progressive disclosure of complexity. How things fit with what we saw in the previous session.
 
-   ★ Customizing what happens in fit(): train_step, compute_loss_and_updates, etc.
+   ★ Create custom Layers, Metrics and Losses.
 
-   ★ Customizing the loss function. Standard data-oriented interface vs. more complex cases (requiring access to the model).
+   ★ Customizing what happens in fit(): train_step, compute_loss_and_updates. More advanced customization of the loss function. Standard data-oriented interface vs. more complex cases (requiring access to the model).
 
    ★ Callbacks.
 
 
-## Session 7: Distributed training
- - Distributed training. SIMD model, data parallelization. Data sharding.
+## Session 7: Leveraging on existing models
+ - Up to now most practical tasks in AI are related to data preparation and model development. However, it is more and more frequent to use existing models (specifically foundational LLMs) and integrate them into a custom pipeline.
 
-   ★ Distributed training with Keras. Some specificities of JAX, TF and Pytorch.
+   ★ How to install DeepSeek locally and query it programmatically.
 
+   ★ Transfer learning and fine tuning in Keras.
 
-## Session 8: MLOps
- - Motivation: Up to now most practical tasks in AI are related to data preparation and model development. However, it is more and more frequent to use existing models (specifically foundational LLMs) and integrate them into a custom pipeline.
- - Explain foundation models, fine tuning, etc. Huggingface.
-
-   ★ How to install DeepSeek locally.
-
- - Domain-specific models: Example of MediTron from EPFL.
-
-   ★ Install and query MediTron locally.
+   ★ Embeddings. General embeddings vs. domain-specific ones: Example of MediTron from EPFL.
 
 
-## Session 9: Structured Generation
+## Session 8: Structured Generation
  - Structured Generation on LLMs. Motivation, what it is, benefits.
 
    ★ Tutorial on structured generation.
