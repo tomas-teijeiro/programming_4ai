@@ -59,17 +59,14 @@ Material for the second part of the Programming for AI course on the "Applied Ar
 ## Session 7: Leveraging on existing models
  - Up to now most practical tasks in AI are related to data preparation and model development. However, it is more and more frequent to use existing models (specifically foundational LLMs) and integrate them into a custom pipeline.
 
-   ★ How to install DeepSeek locally and query it programmatically.
+   ★ How to install a LLM locally and query it programmatically.
 
+   ★ Using individual components from an LLM: Tokenizer, Embeddings.
+   
    ★ Transfer learning and fine tuning in Keras.
 
-   ★ Embeddings. General embeddings vs. domain-specific ones: Example of MediTron from EPFL.
+   ★ Knowledge distillation in Keras.
 
-
-## Session 8: Structured Generation
- - Structured Generation on LLMs. Motivation, what it is, benefits.
-
-   ★ Tutorial on structured generation.
 
 
 
